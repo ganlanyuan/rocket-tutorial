@@ -1,0 +1,14 @@
+
+*.DS_Store
+*.codekit
+*.sublime-project
+*.sublime-workspace
+*.scssc
+*.swp
+
+/.codekit-cache/
+/bower_components/
+
+README.html
+changelog.html
+LICENSE
