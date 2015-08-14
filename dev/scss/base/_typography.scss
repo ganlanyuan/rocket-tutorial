@@ -3,7 +3,10 @@
 
 // .h1 { @include type(47px 600 1.2); }
 // .h2 { @include type(47px 600 1.2); }
-// .h3 { @include type(20px 700 uppercase); }
+.h3 { @include type(20px 700 $lato); 
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 // .h4 { @include type(15px 700 uppercase); }
 // .h5 { @include type(15px 700); }
 // .h6 { @include type(47px 600 1.2); }

@@ -12,7 +12,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 	<!-- <meta http-equiv="cleartype" content="on"> -->
-	<title>Site Title</title>
+	<title>Rocket Tutorial</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="HandheldFriendly" content="True">
@@ -37,6 +37,7 @@
 	<!--[if !IE]><!-->
 		<!-- <link href="assets/css/responsive-table.css" rel="stylesheet" > -->
 	<!--<![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/main.css">
 
 	<!-- javascript -->

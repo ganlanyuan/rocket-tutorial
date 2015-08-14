@@ -1,3 +1,58 @@
 // header
 // ==========
 
+.container { @include container(); }
+.site-head {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  background-color: map-get($color, 'brand');
+}
+.logo {
+  float: left;
+}
+.nav-toggle {
+  float: right;
+  margin-top: 4px;
+}
+.site-nav {
+  @include type(14px);
+  color: #fff;
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+@include bp(max 799) {
+  .head-nav {
+    @include accordion('.site-nav' 200px 0.4s);
+  }
+  .site-nav {
+    clear: both;
+    ul {
+      padding-top: 15px;
+    }
+    li {
+      padding-left: 0;
+      color: #fff;
+      transition: color 0.4s;
+      &:hover {
+        color: darken(map-get($color, 'brand'), 30%);
+      }
+    }
+  }
+}
+@include bp(min 800) {
+  .nav-toggle { display: none; }
+  .site-nav {
+    float: right;
+    li {
+      display: inline-block;
+      border-radius: 5px;
+      background-color: transparent;
+      transition: background-color 0.4s;
+      &:hover {
+        background-color: darken(map-get($color, 'brand'), 10%);
+      }
+    }
+  }
+}
