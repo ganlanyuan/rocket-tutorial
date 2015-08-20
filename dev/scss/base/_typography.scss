@@ -3,7 +3,7 @@
 
 // .h1 { @include type(47px 600 1.2); }
 // .h2 { @include type(47px 600 1.2); }
-.h3 { @include type(20px 700 $lato); 
+.h3 { @include type(20px capitalize 700 $lato); 
   padding-top: 30px;
   padding-bottom: 20px;
 }

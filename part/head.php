@@ -35,20 +35,18 @@
 
 	<!-- css -->
 	<!--[if !IE]><!-->
-		<!-- <link href="assets/css/responsive-table.css" rel="stylesheet" > -->
+		<!-- <link href="<?php if ($section == 'inner') {echo '../'; } ?>assets/css/responsive-table.css" rel="stylesheet" > -->
 	<!--<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="<?php if ($section == 'inner') {echo '../'; } ?>assets/css/main.css">
 
 	<!-- javascript -->
 	<!--[if (lt IE 9)]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="assets/js/ie.min.js"></script>
+		<script src="<?php if ($section == 'inner') {echo '../'; } ?>assets/js/ie.min.js"></script>
 		
 		<link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-		<link href="assets/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
-		<script src="assets/cross-domain/respond.proxy.js"></script>	
+		<link href="<?php if ($section == 'inner') {echo '../'; } ?>assets/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+		<script src="<?php if ($section == 'inner') {echo '../'; } ?>assets/cross-domain/respond.proxy.js"></script>	
 	<![endif]-->
-
-  <?php // include_once("svg-ajax.php") ?>
 </head>

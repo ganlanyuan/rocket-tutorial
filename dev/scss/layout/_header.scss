@@ -17,6 +17,7 @@
 .site-nav {
   @include type(14px);
   color: #fff;
+  a { color: #fff; }
   li {
     padding: 10px;
     cursor: pointer;

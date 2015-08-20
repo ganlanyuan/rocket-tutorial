@@ -20,33 +20,10 @@
     color: #777;
   }
 }
+.flex-video {
+  @include flex-video(9/16 video);
+}
 .video {
-  @include center('.inner');
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  > .video-toggle {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    transition: background-color 0.4s;
-    cursor: pointer;
-  }
-  > .inner {
-    width: 100%;
-    max-width: map-get($ro-layout, 'container');
-    transform: translateY(-60%) scale(0.3);
-    transition: transform 0.4s;
-  }
-  .flex-video {
-    @include flex-video(9/16 video);
-  }
   .content {
     padding: 15px;
     background-color: #18283D;
@@ -58,17 +35,6 @@
     a {
       color: #419BFF;
       &:hover { text-decoration: underline; }
-    }
-  }
-  &.show {
-    z-index: 100;
-    height: 100%;
-    > .video-toggle {
-      background-color: #18283D;
-      background-color: rgba(#18283D, 0.85);
-    }
-    > .inner {
-      transform: translateY(0) scale(1);
     }
   }
 }
