@@ -9,7 +9,7 @@
 
 <div class="container">
   <section class="section">
-    <h3 class="h3">Rocket</h3>
+    <h3 class="h3"><?php echo $pagename; ?></h3>
     <div class="video">
       <div class="flex-video">
         <video controls="controls" height="720" width="1280">
