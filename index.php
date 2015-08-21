@@ -22,21 +22,17 @@
       </li>
     </ul>
   </section>
-  <section class="section" id="codekit">
-    <h3 class="h3">Codekit</h3>
+  <section class="section">
     <ul class="video-gallery">
-      <li>
+      <li id="codekit">
+        <h3 class="h3">Codekit</h3>
         <div class="thumbnail">
           <a href="inner/codekit.php"><img src="assets/img/thumbnail/codekit.png" alt=""></a>
           <p>The basics</p>
         </div>
       </li>
-    </ul>
-  </section>
-  <section class="section" id="startpoint">
-    <h3 class="h3">Startpoint</h3>
-    <ul class="video-gallery">
-      <li>
+      <li id="startpoint">
+        <h3 class="h3">Startpoint</h3>
         <div class="thumbnail">
           <a href="inner/startpoint.php"><img src="assets/img/thumbnail/startpoint.png" alt=""></a>
           <p>Startpoint</p>
@@ -44,6 +40,10 @@
       </li>
     </ul>
   </section>
+  <!-- <section class="section">
+    <ul class="video-gallery">
+    </ul>
+  </section> -->
   <section class="section" id="rocket">
     <h3 class="h3">Rocket</h3>
     <ul class="video-gallery">
@@ -57,6 +57,30 @@
         <div class="thumbnail">
           <a href="inner/rocket-2.php"><img src="assets/img/thumbnail/rocket-2.png" alt=""></a>
           <p>Gallery, two-columns, justify, center</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-3.php"><img src="assets/img/thumbnail/rocket-3.png" alt=""></a>
+          <p>Button</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-4.php"><img src="assets/img/thumbnail/rocket-4.png" alt=""></a>
+          <p>Media-list</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-5.php"><img src="assets/img/thumbnail/rocket-5.png" alt=""></a>
+          <p>Offcanvas</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-6.php"><img src="assets/img/thumbnail/rocket-6.png" alt=""></a>
+          <p>Mobile-nav</p>
         </div>
       </li>
     </ul>

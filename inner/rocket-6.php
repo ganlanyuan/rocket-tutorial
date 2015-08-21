@@ -13,14 +13,14 @@
     <div class="video">
       <div class="flex-video">
         <video controls="controls" height="720" width="1280">
-          <source src="../video/rocket-1.mp4" type="video/mp4">
-          <object data="../video/rocket-1.mp4" height="400" width="900">
-            <embed src="../video/rocket-1.mp4" height="400" width="900">
+          <source src="../video/rocket-6.mp4" type="video/mp4">
+          <object data="../video/rocket-6.mp4" height="400" width="900">
+            <embed src="../video/rocket-6.mp4" height="400" width="900">
           </object>
         </video>
       </div>
       <div class="content">
-        <p>Rocket: <a target="_blank" href="https://github.com/ganlanyuan/rocket">github</a></p>
+        <!-- <p>Rocket: <a target="_blank" href="https://github.com/ganlanyuan/rocket">github</a></p> -->
       </div>
     </div>  
   </section>

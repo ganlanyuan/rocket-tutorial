@@ -13,9 +13,9 @@
     <div class="video">
       <div class="flex-video">
         <video controls="controls" height="720" width="1280">
-          <source src="video/sublime-text-2.mp4" type="video/mp4">
-          <object data="video/sublime-text-2.mp4" height="400" width="900">
-            <embed src="video/sublime-text-2.mp4" height="400" width="900">
+          <source src="../video/sublime-text-2.mp4" type="video/mp4">
+          <object data="../video/sublime-text-2.mp4" height="400" width="900">
+            <embed src="../video/sublime-text-2.mp4" height="400" width="900">
           </object>
         </video>
       </div>
