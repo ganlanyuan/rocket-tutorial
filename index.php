@@ -83,6 +83,48 @@
           <p>Mobile-nav</p>
         </div>
       </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-7.php"><img src="assets/img/thumbnail/rocket-7.png" alt=""></a>
+          <p>Dropdown</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-8.php"><img src="assets/img/thumbnail/rocket-8.png" alt=""></a>
+          <p>Tabs, tabs-active, tabs-panel-active</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-9.php"><img src="assets/img/thumbnail/rocket-9.png" alt=""></a>
+          <p>Switch</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-10.php"><img src="assets/img/thumbnail/rocket-10.png" alt=""></a>
+          <p>Accordion</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-11.php"><img src="assets/img/thumbnail/rocket-11.png" alt=""></a>
+          <p>Push-toggle</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-12.php"><img src="assets/img/thumbnail/rocket-12.png" alt=""></a>
+          <p>Checkbox, checkbox-active</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-13.php"><img src="assets/img/thumbnail/rocket-13.png" alt=""></a>
+          <p>Tooltip, flex-video</p>
+        </div>
+      </li>
     </ul>
   </section>
 </div>
