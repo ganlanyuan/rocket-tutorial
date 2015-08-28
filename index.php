@@ -125,6 +125,36 @@
           <p>Tooltip, flex-video</p>
         </div>
       </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-14.php"><img src="assets/img/thumbnail/rocket-14.png" alt=""></a>
+          <p>Sliders</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-15.php"><img src="assets/img/thumbnail/rocket-15.png" alt=""></a>
+          <p>Type</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-16.php"><img src="assets/img/thumbnail/rocket-16.png" alt=""></a>
+          <p>font-size</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-17.php"><img src="assets/img/thumbnail/rocket-17.png" alt=""></a>
+          <p>Breakpoint, visibility</p>
+        </div>
+      </li>
+      <li>
+        <div class="thumbnail">
+          <a href="inner/rocket-18.php"><img src="assets/img/thumbnail/rocket-18.png" alt=""></a>
+          <p>Color functions</p>
+        </div>
+      </li>
     </ul>
   </section>
 </div>
